@@ -3161,7 +3161,9 @@ input, select, textarea {
 		padding: 0em 0 6em 0 ;
 		font-family: "HGP教科書体";
 	}
-
+	#main>.inner
+	{
+	}　
 		@media screen and (max-width: 736px) {
 
 			#main {
@@ -3384,4 +3386,4 @@ input, select, textarea {
 	text-decoration: none;
 }
 
-span.title {font-size: 50px; }　
+span.title {font-size: 100px; }　
