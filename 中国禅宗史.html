@@ -6,6 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -53,32 +75,202 @@
 							 
 								<ul class="toc_list">
 									<li>
-										<a href="#section1">項目1</a>
+										<a href="#section1">禅籍</a>
 										<ul>
 											<li>
-												<a href="#subsection1">サブ項目1</a>
+												<a href="#subsection1">『景徳伝灯録』（けいとくでんとうろく）</a>
 											</li>
-										</ul>
-										<ul>
 											<li>
-												<a href="#subsection2">サブ項目2</a>
+												<a href="#subsection2">『絶観論』（ぜっかんろん）</a>
+											</li>
+											<li>
+												<a href="#subsection3">『雪竇頌古』（せっちょうじゅこ）</a>
+											</li>
+											<li>
+												<a href="#subsection4">『禅源諸詮集都序』（ぜんげんしょせんしゅうとじょ）</a>
+											</li>
+											<li>
+												<a href="#subsection5">『祖堂集』（そどうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection6">『伝法宝紀』（でんほうぼうき）</a>
+											</li>
+											<li>
+												<a href="#subsection7">『碧巌録』（へきがんろく）</a>
+											</li>
+											<li>
+												<a href="#subsection8">『碧巌録』（へきがんろく）</a>
+											</li>
+											<li>
+												<a href="#subsection9">『宝林伝』（ほうりんでん）</a>
+											</li>
+											<li>
+												<a href="#subsection10">『楞伽師資記』（りょうがしじき）</a>
+											</li>
+											<li>
+												<a href="#subsection11">『歴代法宝記』（れきだいほうぼうき）</a>
 											</li>
 										</ul>
 									</li>
 							 
 									<li>
-										<a href="#section2">項目2</a>
+										<a href="#section2">思想・事件</a>
+										<ul>
+											<li>
+												<a href="#subsection12">安史の乱（あんしのらん）</a>
+											</li>
+											<li>
+												<a href="#subsection13">一行三昧（いちぎょうざんまい）</a>
+											</li>
+											<li>
+												<a href="#subsection14">一日作さざれば、一日食らわず（いちにちなさざれば、いちにちくらわず）</a>
+											</li>
+											<li>
+												<a href="#subsection15">顕示真心即性教（けんじしんじんそくしょうきょう）</a>
+											</li>
+											<li>
+												<a href="#subsection16">古則【公案】（こそく【こうあん】）</a>
+											</li>
+											<li>
+												<a href="#subsection17">直顕真性宗（じっけんしんしょうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection18">守一不移（しゅいつふい）</a>
+											</li>
+											<li>
+												<a href="#subsection19">守心（しゅしん）</a>
+											</li>
+											<li>
+												<a href="#subsection20">著語（じゃくご）</a>
+											</li>
+											<li>
+												<a href="#subsection21">頌古（じゅこ）</a>
+											</li>	
+											<li>
+												<a href="#subsection22">絶観忘守（ぜっかんぼうしゅ）</a>
+											</li>
+											<li>
+												<a href="#subsection23">漸修（ぜんしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection24">即心即仏（そくしんそくぶつ）</a>
+											</li>
+											<li>
+												<a href="#subsection25">息妄修心宗（そくもうしゅうしんしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection26">断臂求法（だんぴぐほう）</a>
+											</li>
+											<li>
+												<a href="#subsection27">頓悟（とんご）</a>
+											</li>
+											<li>
+												<a href="#subsection28">二入四行説（ににゅうしぎょうせつ）</a>
+											</li>
+											<li>
+												<a href="#subsection29">拈古（ねんこ）</a>
+											</li>
+											<li>
+												<a href="#subsection30">非心非仏（ひしんひぶつ）</a>
+											</li>
+											<li>
+												<a href="#subsection41">非風非幡、仁者心動（ひふうひばん、にんじゃしんどう）</a>
+											</li>
+											<li>
+												<a href="#subsection32">評唱（ひょうしょう）</a>
+											</li>	
+											<li>
+												<a href="#subsection33">平常心是道（びょうじょうしんぜどう）</a>
+											</li>
+											<li>
+												<a href="#subsection34">不立文字教外別伝（ふりゅうもんじきょうげべつでん）</a>
+											</li>
+											<li>
+												<a href="#subsection35">壁観（へきかん）</a>
+											</li>
+											<li>
+												<a href="#subsection36">遍参（へんさん）</a>
+											</li>
+											<li>
+												<a href="#subsection37">本来無一物（ほんらいむいちもつ）</a>
+											</li>
+											<li>
+												<a href="#subsection38">密意依性説相教（みつちえしょうせっそうきょう）</a>
+											</li>
+											<li>
+												<a href="#subsection39">密意破相顕性教（みつちはそうけんしょうきょう）</a>
+											</li>
+											<li>
+												<a href="#subsection40">泯絶無寄宗（みんぜつむきしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection41">無徳正観（むとくしょうかん）</a>
+											</li>	
+										</ul>									
+									</li>
+									<li>
+										<a href="#section1">宗派</a>
+										<ul>
+											<li>
+												<a href="#subsection42">潙仰宗（いぎょうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection43">雲門宗（うんもんしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection44">五家七宗（ごけしちしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection45">牛頭宗（ごずしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection46">浄衆宗（じょうしゅうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection47">石頭宗（せきとうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection48">曹洞宗（そうとうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection49">東山法門（とうざんほうもん）</a>
+											</li>
+											<li>
+												<a href="#subsection50">南宗禅（なんしゅうぜん）</a>
+											</li>
+											<li>
+												<a href="#subsection51">馬祖禅【洪州宗】（ばそぜん【こうしゅうしゅう】）</a>
+											</li>
+											<li>
+												<a href="#subsection52">法眼宗（ほうげんしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection53">北宗禅（ほくしゅうぜん）</a>
+											</li>
+											<li>
+												<a href="#subsection54">保唐宗（ほとうしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection55">楞伽宗（りょうがしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection56">臨済宗（りんざいしゅう）</a>
+											</li>
+											<li>
+												<a href="#subsection57">臨済宗黄竜派（りんざいしゅうおうりょうは）</a>
+											</li>
+											<li>
+												<a href="#subsection58">臨済宗楊岐派（りんざいしゅうようぎは）</a>
+											</li>
+										</ul>
 									</li>
 							 
-									<li>
-										<a href="#section3">項目3</a>
-									</li>
-									<li>
-										<a href="#section4">項目4</a>
-									</li>
-								</ul>
+	
 							</div>
-						</div>
+							<h2 id="section1">禅籍</h2>
+							<h3 id="subsection1">『景徳伝灯録』（けいとくでんとうろく）</h3>
+							宋代に、『宝林伝』の後を受ける形で景徳元年に成立し、直ちに入蔵した中国禅宗の歴史と教養をまとめた代表的な灯史のこと。禅宗列祖の伝記と機語がまとめられており、1701人の仏祖の名があり、「一千七百則の公案」という言葉の由来となっている。唐代の禅と宋代以降の禅を大きく区切り、敦煌文献が発見されるまで約1000年に渡って、中国禅宗の基本書であった。							
+						</div>						
 					</div>
 
 				
@@ -96,6 +288,6 @@ Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<div class="pagetop">↑</div>
 	</body>
 </html>

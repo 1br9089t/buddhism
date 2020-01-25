@@ -6,6 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+		<script>
+		jQuery(document).ready(function() {
+		var offset = 100;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+		jQuery('.pagetop').fadeIn(duration);
+		} else {
+		jQuery('.pagetop').fadeOut(duration);
+		}
+		});
+		
+		jQuery('.pagetop').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+		})
+		});
+		</script>
+		
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -54,7 +76,7 @@
 									<a href="中国禅宗史.html">
 										<h2>中国禅宗史</h2>
 										<div class="content">
-											<p>経典　思想　宗派</p>
+											<p>禅籍　思想　事件　宗派</p>
 										</div>
 									</a>
 								</article>
@@ -197,6 +219,6 @@ Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<div class="pagetop">↑</div>
 	</body>
 </html>

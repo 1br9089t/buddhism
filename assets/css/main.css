@@ -2706,7 +2706,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #000000;
+				background-color: #660066;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2842,11 +2842,17 @@ input, select, textarea {
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
+			font-family: "HGP教科書体";
+		
 		}
 
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
+				color:#660066
+			
+				
+		
 			}
 
 			#header .logo .symbol {
@@ -2855,8 +2861,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 100px;
+					height: 100px;
 				}
 
 		#header nav {
@@ -2993,6 +2999,7 @@ input, select, textarea {
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
+		font-family: "HGP教科書体";
 	}
 
 		#menu > .inner {
@@ -3152,6 +3159,7 @@ input, select, textarea {
 
 	#main {
 		padding: 0em 0 6em 0 ;
+		font-family: "HGP教科書体";
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3165,7 +3173,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 1px;
 		background-color: #660066;
 	}
 
@@ -3201,7 +3209,7 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 1px;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgb(0, 255, 42);
@@ -3228,7 +3236,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding:5px;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3271,7 +3279,7 @@ input, select, textarea {
 				}
 
 					#footer > .inner section:nth-child(1) {
-						width: 100%;
+						width: 50%;
 						margin-right: 0;
 						margin: 3em 0 0 0;
 					}
@@ -3300,7 +3308,7 @@ input, select, textarea {
 				#footer > .inner .copyright li {
 					border-left: 0;
 					padding-left: 0;
-					margin: 0.75em 0 0 0;
+					margin: 5px;
 					display: block;
 					line-height: inherit;
 				}
@@ -3352,3 +3360,28 @@ input, select, textarea {
 			 list-style: outside none none !important;
 			*/
 		}
+		/* 上に戻るボタン */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pagetop:hover {
+	color: #fff !important;
+	background-color: #ed702b;
+	text-decoration: none;
+}
+
+span.title {font-size: 50px; }　
