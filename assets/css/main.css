@@ -2706,7 +2706,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #000000;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2891,7 +2891,7 @@ input, select, textarea {
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: rgba(255, 255, 255, 0.5);
+						background-color:rgba(255, 255, 255, 0.5); 
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
@@ -2988,7 +2988,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background:#660066 ;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #660066;
 	}
 
 		#footer > .inner {
@@ -3204,7 +3204,7 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: rgb(0, 255, 42);
 			}
 
 				#footer > .inner .copyright a {
