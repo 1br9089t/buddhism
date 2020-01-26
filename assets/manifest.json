@@ -9,17 +9,17 @@
   "theme_color"       : "#660066",
   "icons": [
     {
-      "src"           : "buddhism/images/hotokelogo192.png",
+      "src"           : "hotokelogo192.png",
       "sizes"         : "192x192",
       "type"          : "image/png"
     },
     {
-      "src"           : "buddhism/images/hotokelogo256.png",
+      "src"           : "hotokelogo256.png",
       "sizes"         : "256x256",
       "type"          : "image/png"
     },
     {
-      "src"           : "buddhism/images/hotokelogo512.png",
+      "src"           : "hotokelogo512.png",
       "sizes"         : "512x512",
       "type"          : "image/png"
     }
