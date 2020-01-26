@@ -85,4 +85,4 @@ function registerInstallAppEvent(elem){
   }//end installApp
   //ダイアログ表示を行うイベントを追加
   elem.addEventListener("click", installApp);
-}//end registerInstallAppEvent
+}//end registerInstallAppEvent});
