@@ -29,16 +29,15 @@
 		</script>
 	<!-- ウェブアプリマニフェストの読み込み -->
 <link rel="manifest" href="./manifest.json">
+<script>
+if('serviceWorker' in navigator){
+	navigator.serviceWorker.register('/sw.js').then(function(){
+		console.log("Service Worker Registered");
+	});
+}
+</script>
 	</head>
 	<body class="is-preload">
-		<script type="text/javascript">
-			if('serviceWorker' in navigator) {
-			  navigator.serviceWorker
-					   .register('./sw.js')
-					   .then(function() { console.log("Service Worker Registered"); })
-					   .catch(function() { console.log("Service Worker Not Registered"); });
-			}
-		  </script>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
