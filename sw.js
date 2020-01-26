@@ -1,4 +1,3 @@
-   //空でOK
   const STATIC_DATA = [
     'index.html',
     '中国禅宗史.html',
