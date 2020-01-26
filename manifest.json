@@ -1,0 +1,27 @@
+{
+  "name"              : "仏教まとめ",
+  "short_name"        : "仏教",
+  "description"       : "仏教のまとめ",
+  "start_url"         : ".",
+  "display"           : "standalone",
+  "orientation"       : "portrait",
+  "background_color"  : "#660066",
+  "theme_color"       : "#660066",
+  "icons": [
+    {
+      "src"           : "hotokelogo192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "hotokelogo256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "hotokelogo512.png",
+      "sizes"         : "512x512",
+      "type"          : "image/png"
+    }
+  ]
+}
