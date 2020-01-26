@@ -11,13 +11,13 @@ self.addEventListener('install', function(event) {
     .then(function(cache) {
       
         return cache.addAll(
-         "./index.html"
-         "./中国禅宗史.html"
-         "./工事中.html"
-         "./sw.js" 
-         "./manifest.json"
-         "./hotokelogo.ico"
-         "./assets/css/main.css"  
+         "./index.html";
+         "./中国禅宗史.html";
+         "./工事中.html";
+         "./sw.js" ;
+         "./manifest.json";
+         "./hotokelogo.ico";
+         "./assets/css/main.css"  ;
         );
       
     })
