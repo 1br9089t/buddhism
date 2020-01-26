@@ -1,9 +1,9 @@
   const STATIC_DATA = [
-    'index.html',
-    '中国禅宗史.html',
-    '工事中.html',
-    '/assets/css/main.css',
-    '/sw.js'
+    '.index.html',
+    '.中国禅宗史.html',
+    '.工事中.html',
+    './assets/css/main.css',
+    './sw.js'
   ];
   
   self.addEventListener('install', function(e) {
