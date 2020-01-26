@@ -1,10 +1,3 @@
 self.addEventListener('fetch', function(e) {
   // ここは空でもOK
 })
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').then(function(reg) {
-        console.log('Successfully registered service worker', reg);
-    }).catch(function(err) {
-        console.warn('Error whilst registering service worker', err);
-    });
-    }
