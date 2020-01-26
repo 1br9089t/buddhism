@@ -1,6 +1,3 @@
-self.addEventListener('fetch', function(e) {
-  // ここは空でもOK
-})
 var CACHE_NAME = 'cache-v1';
 var urlsToCache = [
   '/',
