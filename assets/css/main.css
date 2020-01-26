@@ -2861,8 +2861,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 100px;
-					height: 100px;
+					width: 50px;
+					height: 50px;
 				}
 
 		#header nav {
@@ -3176,7 +3176,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 1px;
-		background-color: #660066;
+		background-color: #ffffff;
 	}
 
 		#footer > .inner {
@@ -3214,7 +3214,7 @@ input, select, textarea {
 				margin-top: 1px;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgb(0, 255, 42);
+				color: rgb(0, 0, 0);
 			}
 
 				#footer > .inner .copyright a {
@@ -3386,4 +3386,4 @@ input, select, textarea {
 	text-decoration: none;
 }
 
-span.title {font-size: 100px; }　
+span.title {font-size: 50px; }　
