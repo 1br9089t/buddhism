@@ -47,7 +47,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -76,7 +76,7 @@
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #000000;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
