@@ -1069,10 +1069,12 @@
 	text-decoration: none;
 }
 
-span.title {font-size: 50px; }　
+span.title {font-size: 50px; }
+
+
 @media (prefers-color-scheme: dark) {
     body {
         color: #ffffff;
-        background-color: #000000;
-        
-    }
+        background: #000000;		
+	}
+}
