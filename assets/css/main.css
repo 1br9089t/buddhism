@@ -1070,3 +1070,9 @@
 }
 
 span.title {font-size: 50px; }　
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ffffff;
+        background-color: #000000;
+        
+    }
